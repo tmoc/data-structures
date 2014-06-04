@@ -1,6 +1,6 @@
 var makeStack = function(){
   var someInstance = {};
-
+  console.log("Dave");
   // Use an object with numeric keys to store values
   var storage = {};
 
