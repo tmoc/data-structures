@@ -10,7 +10,7 @@ var makeStack = function() {
 
 };
 
-stackMethods = {};
+var stackMethods = {};
 
 stackMethods.push = function(value) {
   this.storage[this.storageSize] = value;
